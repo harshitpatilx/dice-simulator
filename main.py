@@ -10,6 +10,9 @@ def roll_dice():
     dice_result = randint(1, 6)
     return f"{dice_result}"
 
+# Greetings
+print("Welcome to The Dice Simulator")
+
 # Mail Loop
 while True:
     a = input("Press Enter to Roll the Dice: ")
